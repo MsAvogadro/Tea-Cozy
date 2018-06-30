@@ -52,7 +52,7 @@ header nav{
   margin-top: 60px;
   margin-left: 40px;
   margin-right: 40px;
-  border-bottom: 1px solid seashell;
+  
 }
 
 .top .headline{
@@ -63,14 +63,63 @@ header nav{
 
 
 .middle{
-  background-image: url("../images/mission-background.jpg");
-  height: 790px;
-  width: 1200px;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  margin: auto;
+  border-bottom: 3px solid red;
+  text-align: center;
   margin-top: 60px;
-  margin-left: 20px;
-  margin-left: 20px;
-  border-bottom: 1px solid seashell;
 }
+
+.teas{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1000px;
+
+}
+
+.flavor{
+  justify-content: space-around;
+  margin-right: 20px;
+}
+
+.flavor .images{
+  width: 300;
+  height: 200;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+
+.title{
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 200px;
+  margin-right: 200px
+
+}
+
+#Fall-Berry{
+  background-image: url("../images/berryblitz.jpg");
+}
+
+#Spiced-Rum{
+  background-image: url("../images/spiced-rum.jpg");
+}
+
+#Myrtle-Ave{
+  background-image: url("../images/myrtle-ave.jpg");
+}
+
+ #Donuts{
+  background-image: url("../images/donut.jpg");
+}
+ #Bedford-Bizarre{
+  background-image: url("../images/bedford-bizarre.jpg");
+}
+
 
 .lower{
   background-image: url("../images/mission-background.jpg");
@@ -79,5 +128,5 @@ header nav{
   margin-top: 60px;
   margin-left: 20px;
   margin-left: 20px;
-  border-bottom: 1px solid seashell;
+  border-bottom: 3px solid seashell;
 }
