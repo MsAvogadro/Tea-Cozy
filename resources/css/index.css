@@ -61,6 +61,7 @@ header nav{
 .top .headline{
   display: inline-block;
   background-color: black;
+  width: 1200px;
 }
 
 
@@ -153,9 +154,14 @@ header nav{
   margin-top: -5px;
 }
 
+footer{
+  display: inline-block;
+  width: 100%
+}
+
 .contact{
   height: 200px;
-  width: 100%;
+
 }
 
 .copyright{
