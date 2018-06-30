@@ -51,6 +51,7 @@ header nav{
   justify-content: center;
   background-image: url("../images/mission-background.jpg");
   height: 790px;
+  width: 1200px;
   margin-top: 60px;
   margin-left: 40px;
   margin-right: 40px;
@@ -59,38 +60,41 @@ header nav{
 
 .top .headline{
   display: inline-block;
-  width: 1200px;
   background-color: black;
 }
 
 
 .middle{
   display: flex;
+  min-height: 790px;
   flex-flow: column;
+  justify-content: center;
   align-items: center;
 }
 
 .teas{
-  display: flex;
+  display: inline-block;
   flex-flow: row wrap;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   width: 1000px;
 
 }
 
 .flavor{
+  display: inline-block;
   margin-right: 20px;
   justify-content: center;
 
 }
 
-.flavor .images{
+.images{
   width: 300;
   height: 200;
   margin-top: 10px;
   margin-bottom: 10px;
   background-size: cover;
+
 }
 
 .title{
@@ -128,8 +132,8 @@ header nav{
   background-image: url("../images/locations-background.jpg");
   height: 500px;
   width: 1200px;
-  margin-left: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .sites{
