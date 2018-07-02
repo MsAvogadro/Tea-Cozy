@@ -41,8 +41,10 @@ header nav{
 
 .container{
   display: flex;
-  width: 100%;
+  max-width: 1200px;
+  margin: auto;
   flex-direction: column;
+  justify-content: center;
 }
 
 .top{
@@ -53,8 +55,6 @@ header nav{
   height: 790px;
   width: 1200px;
   margin-top: 60px;
-  margin-left: 40px;
-  margin-right: 40px;
 
 }
 
@@ -111,7 +111,6 @@ header nav{
   justify-content: center;
   background-image: url("../images/locations-background.jpg");
   height: 500px;
-  width: 1200px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -136,6 +135,7 @@ header nav{
 footer{
   display: inline-block;
   width: 100%
+
 }
 
 .contact{
