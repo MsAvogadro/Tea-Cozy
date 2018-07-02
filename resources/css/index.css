@@ -89,6 +89,11 @@ header nav{
 
 }
 
+.images{
+  margin-bottom: -10px;
+  margin-top: auto;
+
+}
 
 .title{
   display: flex;
@@ -97,6 +102,7 @@ header nav{
   padding: 0px;
 
 }
+
 
 
 .lower{
