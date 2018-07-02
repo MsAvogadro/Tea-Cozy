@@ -89,14 +89,6 @@ header nav{
 
 }
 
-.images{
-  width: 300;
-  height: 200;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-size: cover;
-
-}
 
 .title{
   display: flex;
@@ -104,25 +96,6 @@ header nav{
   margin: 0px 200px 0px 200px;
   padding: 0px;
 
-}
-
-#Fall-Berry{
-  background-image: url("../images/berryblitz.jpg");
-}
-
-#Spiced-Rum{
-  background-image: url("../images/spiced-rum.jpg");
-}
-
-#Myrtle-Ave{
-  background-image: url("../images/myrtle-ave.jpg");
-}
-
- #Donuts{
-  background-image: url("../images/donut.jpg");
-}
- #Bedford-Bizarre{
-  background-image: url("../images/bedford-bizarre.jpg");
 }
 
 
